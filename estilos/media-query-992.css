@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) and (max-width: 1600px) {
+
+    #tablet {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -48%);
+    
+        height: 456px;
+        width: 627px;
+        background: url(../imagens/tablet-framezin.png) no-repeat;
+    }
+
+    #tela {
+    position: relative;
+    top: 32px;
+    left: 32px;
+    height: 391px;
+    width: 563px;
+    border-radius: 9px;
+    } 
+
+    #musicas {
+        text-align: center;
+    }
+
+    #musicas img {
+        width: 80px;
+        margin: 10px;
+        margin-top:20px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+        box-sizing: border-box;
+    }
+
+    #musicas img:hover {
+        border: 2px solid rgba(255, 255, 255, 0.637);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    }
+
+    #butao {
+        position: absolute;
+        top: 80%;
+        left: 46%;
+        transform: translate(-5%, 25%);
+    } 
+}
